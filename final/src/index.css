@@ -1,7 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,7 +41,6 @@ body {
   align-items: center;
 }
 
-/* QUESTION/TIMER/LEFT SECTION */
 .question-section {
   width: 100%;
   position: relative;
@@ -65,7 +68,6 @@ body {
   text-align: center;
 }
 
-/* ANSWERS/RIGHT SECTION */
 .answer-section {
   width: 100%;
   display: flex;
@@ -105,4 +107,15 @@ button:focus {
 
 button svg {
   margin-right: 5px;
+}
+
+.answerDiv:hover {
+  cursor: pointer;
+}
+
+.answerDiv {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 2px;
+  padding-left: 3px;
 }

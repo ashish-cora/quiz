@@ -1,0 +1,22 @@
+{
+  "quizData": [
+    {
+      "questionText": "What is the capital of France?",
+      "answerOptions": [
+        { "answerText": "New York", "isCorrect": false, "key": 1 },
+        { "answerText": "London", "isCorrect": false, "key": 2 },
+        { "answerText": "Paris", "isCorrect": true, "key": 3 },
+        { "answerText": "Dublin", "isCorrect": false, "key": 4 }
+      ]
+    },
+    {
+      "questionText": "Who is CEO of Tesla?",
+      "answerOptions": [
+        { "answerText": "Jeff Bezos", "isCorrect": false, "key": 1 },
+        { "answerText": "Elon Musk", "isCorrect": true, "key": 2 },
+        { "answerText": "Bill Gates", "isCorrect": false, "key": 3 },
+        { "answerText": "Tony Stark", "isCorrect": false, "key": 4 }
+      ]
+    }
+  ]
+}
